@@ -1,0 +1,11 @@
+name: AuctionHouse
+version: '${project.version}'
+main: me.rimon.auctionhouse.AuctionHousePlugin
+api-version: '1.20'
+commands:
+  auctionhouse:
+    description: Opens the Auction House
+    usage: /<command>
+    aliases: ah
+
+depend: [Essentials]
